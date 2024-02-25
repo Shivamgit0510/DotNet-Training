@@ -1,0 +1,145 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+/* Basic styling for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+}
+
+
+/* Navigation menu styles */
+nav .product {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 150px;
+}
+
+/* Logo image styling */
+.logo {
+    width: 50px; /* Adjust the size as needed */
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styling for login and signup forms */
+.login-container,
+.registration-container {
+    max-width: 400px;
+    margin: 0 auto; /* Horizontally center */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Vertically center */
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-btn,
+.signup-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.signup-btn {
+    background-color: #28a745;
+}
+
+.forgot-link {
+    color: #888;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Additional styles can be added as needed */
+
+
+/* home page */
+
+
+
+.product-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Product image styling */
+.product-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+/* Button styling */
+.add-to-cart-button,
+.buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.buy-button {
+    background-color: #28a745;
+}
