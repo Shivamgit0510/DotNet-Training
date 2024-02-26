@@ -1,0 +1,246 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(120deg,orange,green);
+    height: 100vh;
+    
+} */
+.pass{
+    margin: -5px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
+.pass:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+#submit{
+  background-color: #4796ff;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 15px;
+  width: 100%;
+}
+#submit:hover{
+    border-color: blueviolet;
+}
+.sign_up_link{
+    margin: 30px 0;
+    text-align: center;
+
+}
+.sign_up_link a{
+    text-decoration: none;
+}
+.sign_up_link a:hover{
+    color: green;
+}
+
+/* Sign UP */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(
+      circle farthest-corner at 10% 20%,
+      rgb(243, 130, 24) 0%,
+      rgb(4, 112, 36) 90%
+    );
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px 30px;
+  }
+  
+  .card_title {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .card_title h1 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .form input,textarea {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+  }
+  
+  .form button {
+    background-color: #4796ff;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 15px;
+    width: 100%;
+  }
+  
+  .card_terms {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .card_terms input[type="checkbox"] {
+    background-color: #e2e2e2;
+  }
+  
+  .card_terms span,#error-message {
+    margin: 5px;
+    font-size: 13px;
+  }
+  #error-message{
+    color: red;
+  }
+  .card a {
+    color: #4796ff;
+    text-decoration: none;
+  }
+  
+  .error{
+    color: red;
+  }
+
+/* Main */
+/* Basic styling for the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+}
+
+
+/* Navigation menu styles */
+nav .product {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  left: 200px;
+}
+
+/* Logo image styling */
+.logo {
+  height: 50px;
+  width: 150px; /* Adjust the size as needed */
+}
+
+/* Navigation menu styles */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.product-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: aliceblue;
+  
+}
+
+/* Product image styling */
+.product-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+/* Button styling */
+.add-to-cart-button,
+.buy-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.buy-button {
+  background-color: #28a745;
+}
+
+h3,p{
+  margin-bottom: 10px;
+}
+
+
+/*Contact Us*/
+.contactus-banner{
+  height: auto;
+  width: 100%;
+}
+
+.contactus-container {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ 
+}
+.contactus-container #form,#details{
+  margin-right: 30px;
+}
+.contactus-container div{
+  margin-bottom: 10px;
+}
+#lab{
+  margin-left: 100px;
+  font-weight: bold;
+}
+.contact span{
+ margin-left: 70px;
+}

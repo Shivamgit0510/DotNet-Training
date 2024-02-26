@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+          <div class="card_title">
+            <h1>Create Account</h1>
+            <span>Already have an account? <a href="./login1.html">Sign In</a></span>
+          </div>
+          <div class="form">
+          <form  method="#" onsubmit="return validateAll()">
+            <input type="text" name="firstname" id="fname" placeholder="First Name" onblur="validate1()"/>
+            <span class="error" id="error1"></span>
+            <input type="text" name="surname" id="sname" placeholder="Surname" onblur="validate2()"/>
+            <span class="error" id="error2"></span>
+            <input type="email" name="email" placeholder="Email" id="email" onblur="validate3()"/>
+            <span class="error" id="error3"></span>
+            <input type="text" name="mobile" id="mobile" placeholder="Mobile No" onblur="validate4()" />
+            <span class="error" id="error4"></span>
+            <input type="password" name="password" placeholder="Password" id="password" onblur="validate5()" />
+            <span class="error" id="error5"></span>
+            <input type="password" name="confirmpassword" placeholder="Confirm Password" id="cpass" onblur="validate6()"/>
+            <span class="error" id="error6"></span>
+            <button>Sign Up</button>
+            </form>
+          </div>
+          <div class="card_terms">
+              <input type="checkbox" name="" id="terms"> <span>I have read and agree to the <a href="">Terms of Service</a></span>
+              <div id="error-message">Please agree to the terms.</div>
+          </div>
+        </div>
+      </div>
+      <script src="./Javascript/validation.js"></script>
+</body>
+</html>
