@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        table{
+            border: 2px solid;
+        }
+        [type]{
+            width: 97%;
+        }
+        tr td:nth-child(2){
+            width: 60%;
+        }
+        .error{
+            color: red;
+        }
+    </style>
+   
+</head>
+<body>
+   
+    <h2>COURSE REGISTRATION FORM</h2>
+  <div class="registration">
+    <form action="#" onsubmit="validateAll()">
+        <table>
+            <tr>
+                <td><label for="name">NAME</label></td>
+                <td><input type="text" name="myname" id="name" onblur="validate1()"></td>
+            </tr>
+            <tr><td></td><td class="error" id="error1"></td></tr>
+            <tr>
+                <td><label for="age">AGE</label></td>
+                <td><input type="number" name="age" id="age" onblur="validate2()"></td>
+            </tr>
+            <tr><td></td><td class="error" id="error2"></td></tr>
+            <tr>
+                <td><label for="mobile">MOBILE NUMBER</label></td>
+                <td><input type="text" name="mobile" id="mobile" onblur="validate3()"></td>
+            </tr>
+            <tr><td></td><td class="error" id="error3"></td></tr>
+            <tr>
+                <td><label for="emailid">EMAIL ID</label></td>
+                <td><input type="email" name="emailid" id="emailid" onblur="validate4()"></td>
+            </tr>
+            <tr><td></td><td class="error" id="error4"></td></tr>
+            <tr>
+                <td><label for="pass">SET PASSWORD</label></td>
+                <td><input type="password" name="pass" id="pass" onblur="validate5()"></td>
+            </tr>
+            <tr><td></td><td class="error" id="error5"></td></tr>
+            <tr>
+                <td><label for="cpass">CONFIRM PASSWORD</label></td>
+                <td><input type="password" name="cpass" id="cpass" onblur="validate6()"></td>
+            </tr>
+            <tr><td></td><td class="error" id="error6"></td></tr>
+            <tr>
+                <td><input type="submit" value="REGISTER" ></td>
+                <td> <input type="reset"></td>
+            </tr>
+        </table>
+    </form>
+  </div>
+  <script src="./validation.js"></script>
+</body>
+</html>
